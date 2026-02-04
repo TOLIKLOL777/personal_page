@@ -59,15 +59,10 @@
 }
 
 .next-page {
-    display: block;
     background-color: #894AFF;
     color: white;
     padding: 11px 30px;
     border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
     text-decoration: none;
     font-size: 38px;
     position: absolute;
@@ -75,15 +70,10 @@
 }
 
 .prev-page {
-    display: block;
     background-color: #894AFF;
     color: white;
     padding: 11px 30px;
     border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
     text-decoration: none;
     font-size: 38px;
     position: absolute;

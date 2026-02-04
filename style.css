@@ -5,12 +5,22 @@
     font-family: 'StratosSkyeng', sans-serif;
 }
 
-body {
-    margin-left: calc(50% - 500px);
-    margin-right: calc(50% - 500px);
+.center {
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
+}
+
+.content {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 .title {
+    padding-top: 64px;
     margin-bottom: 32px;
 }
 
@@ -37,28 +47,48 @@ body {
     margin-bottom: 24px;
 }
 
-.list {
-    margin-bottom: 24px;
-}
-
 .listEl {
     text-align: left;
     font-size: 22px;
     margin-bottom: 24px;
 }
 
+.meme-img {
+    width: 45%;
+    border-radius: 12px;
+    margin: 16px;
+}
+
 .next-page {
-    font-style: italic;
-    font-size: 22px;
+    display: block;
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    position: absolute;
+    right: 80px;
+    bottom: 45px;
 }
 
 .prev-page {
-    font-style: italic;
-    margin-right: 64px;
-    font-size: 22px;
-}
-
-.meme-img {
-    width: 50%;
-    border-radius: 12px;
+    display: block;
+    background-color: #894AFF;
+    color: white;
+    padding: 11px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    position: absolute;
+    left: 80px;
+    bottom: 45px;
 }

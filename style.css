@@ -6,13 +6,13 @@
 }
 
 .content {
+    padding-left: calc(50% - 500px);
+    padding-right: calc(50% - 500px);
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     position: relative;
-    padding-left: calc(50% - 500px);
-    padding-right: calc(50% - 500px);
 }
 
 .title {

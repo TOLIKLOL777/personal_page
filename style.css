@@ -6,7 +6,7 @@
 }
 
 .title {
-    padding-top: 64px;
+    padding-top: 128px;
     margin-bottom: 32px;
 }
 
@@ -14,12 +14,12 @@
     background-image: url(images/background.jpg);
     background-repeat: no-repeat; 
     background-position: center;
-    height: 100vh;
+    background-size: cover;
+    min-height: 100vh;
     position: relative;
     padding-left: calc(50% - 500px);  
-    padding-right: calc(50% - 500px); 
+    padding-right: calc(50% - 500px);
 }
-
 
 .name {
     font-size: 24px;
@@ -47,13 +47,13 @@
 .listEl {
     text-align: left;
     font-size: 22px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .meme-img {
     width: 45%;
     border-radius: 12px;
-    margin: 16px;
+    margin: 16px 0px;
 }
 
 .next-page {
@@ -65,6 +65,7 @@
     font-size: 38px;
     position: absolute;
     right: 100px;
+    top: 24px;
 }
 
 .prev-page {
@@ -76,4 +77,10 @@
     font-size: 38px;
     position: absolute;
     left: 100px;
+    top: 24px;
+}
+
+.in-one-line {
+    display: flex;
+    gap: 32px;
 }
